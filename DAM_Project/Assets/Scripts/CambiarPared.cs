@@ -22,8 +22,10 @@ public class CambiarPared : MonoBehaviour
 
     public void ParedIzquierda()
     {
-        
-        if(indiceActual==3){
+        //Si indiceActual es igual al último puntoCamaraPared, reiniciamos el indice a 0 
+        // y la camara va a puntoCamaraPared[0] (así se crea un bucle)
+
+        if(indiceActual==puntosCamaraPared.Length-1){      
             indiceActual = 0;
             MoverCamaraAPared(0);
         } else {
@@ -35,8 +37,8 @@ public class CambiarPared : MonoBehaviour
     public void ParedDerecha()
     {
         if(indiceActual==0){
-            indiceActual = 3;
-            MoverCamaraAPared(3);
+            indiceActual = puntosCamaraPared.Length-1;
+            MoverCamaraAPared(puntosCamaraPared.Length-1);
         } else {
             indiceActual--;
             MoverCamaraAPared(indiceActual);

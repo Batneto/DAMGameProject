@@ -6,11 +6,29 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Habitacion1.unity
+    path: Assets/Scenes/Escenario Pruebas/Habitacion1.unity
     guid: e962925d0bb00b84bb97798f81212d5b
   - enabled: 1
-    path: Assets/Scenes/Habitacion2.unity
+    path: Assets/Scenes/Escenario Pruebas/Habitacion2.unity
     guid: 7adf6526f3b439e439aee9f309ff18f7
+  - enabled: 1
+    path: "Assets/Scenes/Ba\xF1o.unity"
+    guid: 867ab8925a9060946b9f40605ef4b466
+  - enabled: 1
+    path: Assets/Scenes/Hall.unity
+    guid: 6db4f92a88949124db2312da2ebef54e
+  - enabled: 1
+    path: Assets/Scenes/Sala 80.unity
+    guid: 17993c38955f0e14c9fe04d3dda29ba3
+  - enabled: 1
+    path: Assets/Scenes/Sala 90.unity
+    guid: 07053b6d4e99b0d458825d1e1ff6ebc4
+  - enabled: 1
+    path: Assets/Scenes/Sala 00.unity
+    guid: c060be33d94a7d445a964307ebe080fe
+  - enabled: 1
+    path: Assets/Scenes/Oficina.unity
+    guid: 9fc92378c7c20c74b9e9b177b14a1250
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

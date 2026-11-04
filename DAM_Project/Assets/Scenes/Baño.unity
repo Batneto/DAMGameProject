@@ -1283,7 +1283,7 @@ GameObject:
   - component: {fileID: 1974951907}
   - component: {fileID: 1974951906}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Puerta Hall Collider
   m_TagString: Puerta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1347,7 +1347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0a6631e0b3b33a4a942a4bc999b27ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ClickCambiarEscena
-  escenaACambiar: Habitacion1
+  escenaACambiar: Hall
 --- !u!212 &1974951908
 SpriteRenderer:
   serializedVersion: 2
