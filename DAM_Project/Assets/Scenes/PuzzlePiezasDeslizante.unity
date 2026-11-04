@@ -130,6 +130,7 @@ GameObject:
   - component: {fileID: 106899632}
   - component: {fileID: 106899633}
   - component: {fileID: 106899634}
+  - component: {fileID: 106899635}
   m_Layer: 0
   m_Name: Pieza_08
   m_TagString: Untagged
@@ -257,6 +258,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &106899635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106899631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &118591122
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,6 +283,7 @@ GameObject:
   - component: {fileID: 118591125}
   - component: {fileID: 118591124}
   - component: {fileID: 118591123}
+  - component: {fileID: 118591126}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -349,6 +365,50 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &118591126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 118591122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &174930162
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +420,7 @@ GameObject:
   - component: {fileID: 174930163}
   - component: {fileID: 174930164}
   - component: {fileID: 174930165}
+  - component: {fileID: 174930166}
   m_Layer: 0
   m_Name: Pieza_11
   m_TagString: Untagged
@@ -487,6 +548,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &174930166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174930162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &311195921
 GameObject:
   m_ObjectHideFlags: 0
@@ -498,6 +573,7 @@ GameObject:
   - component: {fileID: 311195923}
   - component: {fileID: 311195922}
   - component: {fileID: 311195924}
+  - component: {fileID: 311195925}
   m_Layer: 0
   m_Name: Pieza_01
   m_TagString: Untagged
@@ -625,6 +701,98 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &311195925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311195921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
+--- !u!1 &320358092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 320358093}
+  - component: {fileID: 320358094}
+  m_Layer: 0
+  m_Name: Hueco_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &320358093
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320358092}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.65, y: -1.65, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1233808336}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &320358094
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320358092}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &588371718
 GameObject:
   m_ObjectHideFlags: 0
@@ -727,6 +895,7 @@ GameObject:
   - component: {fileID: 823843966}
   - component: {fileID: 823843967}
   - component: {fileID: 823843968}
+  - component: {fileID: 823843969}
   m_Layer: 0
   m_Name: Pieza_14
   m_TagString: Untagged
@@ -854,6 +1023,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &823843969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 823843965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &938380923
 GameObject:
   m_ObjectHideFlags: 0
@@ -865,6 +1048,7 @@ GameObject:
   - component: {fileID: 938380924}
   - component: {fileID: 938380925}
   - component: {fileID: 938380926}
+  - component: {fileID: 938380927}
   m_Layer: 0
   m_Name: Pieza_05
   m_TagString: Untagged
@@ -992,6 +1176,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &938380927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938380923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &1020881467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1201,7 @@ GameObject:
   - component: {fileID: 1020881468}
   - component: {fileID: 1020881469}
   - component: {fileID: 1020881470}
+  - component: {fileID: 1020881471}
   m_Layer: 0
   m_Name: Pieza_04
   m_TagString: Untagged
@@ -1130,6 +1329,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1020881471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020881467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &1030396150
 GameObject:
   m_ObjectHideFlags: 0
@@ -1141,8 +1354,9 @@ GameObject:
   - component: {fileID: 1030396151}
   - component: {fileID: 1030396152}
   - component: {fileID: 1030396153}
+  - component: {fileID: 1030396154}
   m_Layer: 0
-  m_Name: Pieza_06
+  m_Name: Pieza_06_Fantasma_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1213,7 +1427,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.990566, g: 0.31305623, b: 0.31305623, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1268,6 +1482,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1030396154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030396150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &1233808335
 GameObject:
   m_ObjectHideFlags: 0
@@ -1277,6 +1505,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1233808336}
+  - component: {fileID: 1233808337}
+  - component: {fileID: 1233808338}
   m_Layer: 0
   m_Name: Tablero
   m_TagString: Untagged
@@ -1313,8 +1543,73 @@ Transform:
   - {fileID: 1544228116}
   - {fileID: 823843966}
   - {fileID: 1877608250}
+  - {fileID: 320358093}
+  - {fileID: 1726171984}
+  - {fileID: 1628286372}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1233808337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233808335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55edc3324ce089b4b996d4113738e6f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MezclarPiezasTablero
+  hueco01: {fileID: 320358093}
+  hueco02: {fileID: 1726171984}
+  piezas:
+  - {fileID: 311195923}
+  - {fileID: 1550951327}
+  - {fileID: 1410034448}
+  - {fileID: 1020881468}
+  - {fileID: 938380924}
+  - {fileID: 1030396151}
+  - {fileID: 1857291230}
+  - {fileID: 106899632}
+  - {fileID: 2103166866}
+  - {fileID: 1385463444}
+  - {fileID: 174930163}
+  - {fileID: 1579472297}
+  - {fileID: 1544228116}
+  - {fileID: 823843966}
+  - {fileID: 1877608250}
+  numMovimientos: 40
+  piezaFantasmaB: {fileID: 1857291234}
+--- !u!114 &1233808338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233808335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c658bf4a8f07a4681a82fcefa39e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VictoriaPuzzleDeslizante
+  piezas:
+  - {fileID: 311195923}
+  - {fileID: 1550951327}
+  - {fileID: 1410034448}
+  - {fileID: 1020881468}
+  - {fileID: 938380924}
+  - {fileID: 1030396151}
+  - {fileID: 1857291230}
+  - {fileID: 106899632}
+  - {fileID: 2103166866}
+  - {fileID: 1385463444}
+  - {fileID: 174930163}
+  - {fileID: 1579472297}
+  - {fileID: 1544228116}
+  - {fileID: 823843966}
+  piezaIntrusa: {fileID: 1877608249}
+  piezaFantasmaB: {fileID: 1857291234}
+  imagenPuzzleCompleto: {fileID: 1628286371}
 --- !u!1 &1385463443
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,6 +1621,7 @@ GameObject:
   - component: {fileID: 1385463444}
   - component: {fileID: 1385463445}
   - component: {fileID: 1385463446}
+  - component: {fileID: 1385463447}
   m_Layer: 0
   m_Name: Pieza_10
   m_TagString: Untagged
@@ -1453,6 +1749,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1385463447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385463443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &1410034447
 GameObject:
   m_ObjectHideFlags: 0
@@ -1464,6 +1774,7 @@ GameObject:
   - component: {fileID: 1410034448}
   - component: {fileID: 1410034449}
   - component: {fileID: 1410034450}
+  - component: {fileID: 1410034451}
   m_Layer: 0
   m_Name: Pieza_03
   m_TagString: Untagged
@@ -1591,6 +1902,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1410034451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410034447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &1544228115
 GameObject:
   m_ObjectHideFlags: 0
@@ -1602,6 +1927,7 @@ GameObject:
   - component: {fileID: 1544228116}
   - component: {fileID: 1544228117}
   - component: {fileID: 1544228118}
+  - component: {fileID: 1544228119}
   m_Layer: 0
   m_Name: Pieza_13
   m_TagString: Untagged
@@ -1729,6 +2055,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1544228119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1544228115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &1550951326
 GameObject:
   m_ObjectHideFlags: 0
@@ -1740,6 +2080,7 @@ GameObject:
   - component: {fileID: 1550951327}
   - component: {fileID: 1550951328}
   - component: {fileID: 1550951329}
+  - component: {fileID: 1550951330}
   m_Layer: 0
   m_Name: Pieza_02
   m_TagString: Untagged
@@ -1867,6 +2208,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1550951330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550951326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &1579472296
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,6 +2233,7 @@ GameObject:
   - component: {fileID: 1579472297}
   - component: {fileID: 1579472298}
   - component: {fileID: 1579472299}
+  - component: {fileID: 1579472300}
   m_Layer: 0
   m_Name: Pieza_12
   m_TagString: Untagged
@@ -2005,6 +2361,189 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1579472300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1579472296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
+--- !u!1 &1628286371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1628286372}
+  - component: {fileID: 1628286373}
+  m_Layer: 0
+  m_Name: ImagenPuzzleCompleto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1628286372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628286371}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.4, y: 4.4, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1233808336}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1628286373
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628286371}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!1 &1726171983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1726171984}
+  - component: {fileID: 1726171985}
+  m_Layer: 0
+  m_Name: Hueco_02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1726171984
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726171983}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1233808336}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1726171985
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726171983}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1857291229
 GameObject:
   m_ObjectHideFlags: 0
@@ -2016,8 +2555,10 @@ GameObject:
   - component: {fileID: 1857291230}
   - component: {fileID: 1857291231}
   - component: {fileID: 1857291232}
+  - component: {fileID: 1857291233}
+  - component: {fileID: 1857291234}
   m_Layer: 0
-  m_Name: Pieza_07
+  m_Name: Pieza_07_Fantasma_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2031,13 +2572,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857291229}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 0.55, y: 0.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1233808336}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &1857291231
 SpriteRenderer:
   serializedVersion: 2
@@ -2088,7 +2629,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.99215686, g: 0.3137255, b: 0.3137255, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2143,6 +2684,38 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1857291233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857291229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
+--- !u!114 &1857291234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857291229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98d72f9759f03824fa0a1f33ec2b5c45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RotarPiezaFantasma
+  hueco: {fileID: 320358093}
+  piezaFantasmaA: {fileID: 1030396151}
+  fantasmaCorrecto: 0
+  piezaImagenFantasmaA: {fileID: 1030396152}
+  piezaImagenFantasmaB: {fileID: 1857291231}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &1877608249
 GameObject:
   m_ObjectHideFlags: 0
@@ -2154,8 +2727,10 @@ GameObject:
   - component: {fileID: 1877608250}
   - component: {fileID: 1877608251}
   - component: {fileID: 1877608252}
+  - component: {fileID: 1877608253}
+  - component: {fileID: 1877608254}
   m_Layer: 0
-  m_Name: Pieza_15
+  m_Name: Pieza_15_intrusa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2226,7 +2801,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.244304, g: 0.55298954, b: 0.8490566, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2281,6 +2856,35 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1877608253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877608249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 0}
+--- !u!114 &1877608254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877608249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92f77d8634f6894bb343f4ed209b801, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PiezaIntrusaHueco02
+  hueco02: {fileID: 320358093}
+  piezaIntrusaEliminada: 0
+  segundoHueco: {fileID: 1726171984}
 --- !u!1 &2103166865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2292,6 +2896,7 @@ GameObject:
   - component: {fileID: 2103166866}
   - component: {fileID: 2103166867}
   - component: {fileID: 2103166868}
+  - component: {fileID: 2103166869}
   m_Layer: 0
   m_Name: Pieza_09
   m_TagString: Untagged
@@ -2419,6 +3024,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &2103166869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103166865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05903da2c93150f41b21b7bf3240c571, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MoverPieza
+  hueco: {fileID: 320358093}
+  segundoHueco: {fileID: 1726171984}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
