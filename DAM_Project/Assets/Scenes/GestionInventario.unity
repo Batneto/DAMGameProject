@@ -408,7 +408,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -450,7 +450,6 @@ MonoBehaviour:
   - {fileID: 1734839575}
   - {fileID: 1945404234}
   - {fileID: 426748380}
-  numObjetosGuardados: 0
   objetoGuardado:
   - {fileID: 0}
   - {fileID: 0}
