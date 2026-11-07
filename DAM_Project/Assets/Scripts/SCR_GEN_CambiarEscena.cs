@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CambiarPared : MonoBehaviour
+public class SCR_GEN_CambiarEscena : MonoBehaviour
 {
     [SerializeField] private RectTransform contenedorFondo;
    // [SerializeField] private float anchoPantalla = 1920f;
