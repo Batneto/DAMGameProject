@@ -1,15 +1,21 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CambiarPared : MonoBehaviour
-{   
-    [SerializeField] private GameObject[] puntosCamaraPared;  // Array de las paredes para que la cámara pueda moverse a cada uno
+{
+    [SerializeField] private RectTransform contenedorFondo;
+   // [SerializeField] private float anchoPantalla = 1920f;
+
+    private int numPlanos => contenedorFondo.childCount;
 
     private int indiceActual = 0;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (puntosCamaraPared.Length > 0)           //Checkea que haya paredes y empieza en la posición 0 del array
+        Debug.Log("CambiarPared arrancado, numPlanos = " + numPlanos);
+
+        if (numPlanos > 0)           //Checkea que haya paredes y empieza en la posición 0 del array
         {
             MoverCamaraAPared(0);
         }
@@ -20,35 +26,40 @@ public class CambiarPared : MonoBehaviour
     }
 
 
-    public void ParedIzquierda()
+    public void Derecha()
     {
-        //Si indiceActual es igual al último puntoCamaraPared, reiniciamos el indice a 0 
-        // y la camara va a puntoCamaraPared[0] (así se crea un bucle)
-
-        if(indiceActual==puntosCamaraPared.Length-1){      
+        if(indiceActual==numPlanos-1){      
             indiceActual = 0;
             MoverCamaraAPared(0);
         } else {
             indiceActual++;
             MoverCamaraAPared(indiceActual);
         }
+
+        Debug.Log("Indice: " + indiceActual);
     }
 
-    public void ParedDerecha()
+    public void Izquierda()
     {
         if(indiceActual==0){
-            indiceActual = puntosCamaraPared.Length-1;
-            MoverCamaraAPared(puntosCamaraPared.Length-1);
+            indiceActual = numPlanos-1;
+            MoverCamaraAPared(numPlanos-1);
         } else {
             indiceActual--;
             MoverCamaraAPared(indiceActual);
         }
+
+        Debug.Log("Indice: " + indiceActual);
     }
 
     private void MoverCamaraAPared(int indice)
     {
-        // Mover la cámara (este GameObject) al punto seleccionado
-        // Solo mover en X
-        transform.position = new Vector3(puntosCamaraPared[indice].gameObject.transform.position.x,0,-10);
+        Debug.Log("MoverCamaraAPared llamado con indice = " + indice);
+
+        RectTransform fondo = (RectTransform)contenedorFondo.GetChild(indice);
+
+        Vector2 nuevaPos = new Vector2(-fondo.anchoredPosition.x, contenedorFondo.anchoredPosition.y);
+        contenedorFondo.anchoredPosition = nuevaPos;
+       
     }
 }
