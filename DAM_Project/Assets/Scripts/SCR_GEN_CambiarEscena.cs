@@ -49,6 +49,8 @@ public class SCR_GEN_CambiarEscena : MonoBehaviour
             MoverCamaraAPared(indiceActual);
         }
 
+        Debug.Log("Click izquierda");
+
         Debug.Log("Indice: " + indiceActual);
     }
 
