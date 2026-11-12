@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 3
   tags:
   - Suelo
+  - agua
+  - MuroInvisible
+  - palanca
+  - agua1
   layers:
   - Default
   - TransparentFX
